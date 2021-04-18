@@ -1,0 +1,20 @@
+#spring:
+#  datasource:
+#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+#    url: jdbc:log4jdbc:oracle:thin:@localhost:49161:xe
+#    username: system
+#    password: 123
+#  devtools:
+#    livereload:
+#      enabled: true
+#  main:
+#    allow-bean-definition-overriding: true
+#
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: DEBUG
+#        type: trace
+#    net:
+#      gentledot: INFO
